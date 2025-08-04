@@ -13,7 +13,7 @@ export type NavbarProps = {
 
 export type TextProps = {
     classes?: string
-    children: string
+    children: any
 }
 
 export type ImgProps = {
