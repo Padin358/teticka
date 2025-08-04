@@ -21,3 +21,16 @@ export type ImgProps = {
     source: string
     alt: string
 }
+
+export type cenik1type = {
+    nazev: string
+    doba: number
+    cena: number
+}
+
+export type cenik2type = {
+    nazev: string
+    doba: number
+    cena: number
+    poznamka: string
+}

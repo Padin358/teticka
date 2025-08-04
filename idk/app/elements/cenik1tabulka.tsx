@@ -1,0 +1,27 @@
+import { cenik1 } from "public/cenik"
+import React from "react"
+
+const Cenik1Tabulka = () => {
+    return (
+        <table className="table-auto w-1/2 border-collapse border border-cyan-900 text-gray-50 mx-auto my-16 font-semibold">
+        <thead>
+            <tr className="bg-cyan-800 font-extrabold text-xl">
+            <th className="border-2 border-cyan-900 p-2 w-124">Klasická, sportovní a rekondiční masáž</th>
+            <th className="border-2 border-cyan-900 p-2 w-24">Doba</th>
+            <th className="border-2 border-cyan-900 p-2 w-24">Cena</th>
+            </tr>
+        </thead>
+        <tbody>
+            {cenik1.map((masaz, index) => (
+            <tr key={index} className="hover:bg-cyan-800/70 transition duration-100">
+                <td className="border-2 border-cyan-900 p-2">{masaz.nazev}</td>
+                <td className="border-2 border-cyan-900 p-2">{masaz.doba + " min"}</td>
+                <td className="border-2 border-cyan-900 p-2">{masaz.cena + " Kč"}</td>
+            </tr>
+            ))}
+        </tbody>
+        </table>
+    )
+}
+
+export default Cenik1Tabulka
