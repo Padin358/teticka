@@ -7,8 +7,8 @@ const Cenik1Tabulka = () => {
         <thead>
             <tr className="bg-cyan-800 font-extrabold text-xl">
             <th className="border-2 border-cyan-900 p-2 w-124">Klasická, sportovní a rekondiční masáž</th>
-            <th className="border-2 border-cyan-900 p-2 w-24">Doba</th>
-            <th className="border-2 border-cyan-900 p-2 w-24">Cena</th>
+            <th className="border-2 border-cyan-900 p-2 w-28">Doba</th>
+            <th className="border-2 border-cyan-900 p-2 w-28">Cena</th>
             </tr>
         </thead>
         <tbody>

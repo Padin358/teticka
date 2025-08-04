@@ -16,8 +16,8 @@ const Cenik2Tabulka = () => {
             {cenik2.map((masaz, index) => (
             <tr key={index} className="hover:bg-cyan-800/70 transition duration-100">
                 <td className="border-2 border-cyan-900 p-2">{masaz.nazev}</td>
-                <td className="border-2 border-cyan-900 p-2 w-24">{masaz.doba + " min"}</td>
-                <td className="border-2 border-cyan-900 p-2 w-24">{masaz.cena + " Kč"}</td>
+                <td className="border-2 border-cyan-900 p-2 w-28">{masaz.doba + " min"}</td>
+                <td className="border-2 border-cyan-900 p-2 w-28">{masaz.cena + " Kč"}</td>
                 <td className="border-2 border-cyan-900 p-2">{masaz.poznamka}</td>
             </tr>
             ))}

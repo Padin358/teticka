@@ -19,7 +19,7 @@ export type TextProps = {
 export type ImgProps = {
     classes?: string
     source: string
-    alt: string
+    alt?: string
 }
 
 export type cenik1type = {
