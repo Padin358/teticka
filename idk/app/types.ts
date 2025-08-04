@@ -34,3 +34,10 @@ export type cenik2type = {
     cena: number
     poznamka: string
 }
+
+export type cenikBtnProps = {
+    children: any
+    idProp?: string
+    classes?: string
+    clickProp?: any
+}

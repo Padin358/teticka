@@ -6,7 +6,7 @@ const Cenik4Tabulka = () => {
         <table className="table-auto w-1/2 border-collapse border border-cyan-900 text-gray-50 mx-auto my-16 font-semibold">
         <thead>
             <tr className="bg-cyan-800 font-extrabold text-xl">
-            <th className="border-2 border-cyan-900 p-2 w-124">Reflexní terapie plosky nohy</th>
+            <th className="border-2 border-cyan-900 p-2">Reflexní terapie plosky nohy</th>
             <th className="border-2 border-cyan-900 p-2">Doba</th>
             <th className="border-2 border-cyan-900 p-2">Cena</th>
             <th className="border-2 border-cyan-900 p-2">Masíruje se</th>
