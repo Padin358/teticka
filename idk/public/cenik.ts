@@ -27,10 +27,10 @@ export const cenik4: cenik2type[] = [
 
 export const cenik5: cenik2type[] = [
     {nazev: "MLM 30", doba: 30, cena: 390, poznamka: "obličej + hlava, nebo horní končetiny"},
-    {nazev: "MLM 60", doba: 60, cena: 690, poznamka: "dolní končetiny"},
+    {nazev: "MLM 60", doba: 60, cena: 750, poznamka: "dolní končetiny"},
     {nazev: "MLM 90", doba: 90, cena: 950, poznamka: "dolní polovina těla, nebo horní polovina těla"},
     {nazev: "MLM 120", doba: 120, cena: 1150, poznamka: "kombinace variant 30, 60, 90, nebo dle přání klienta"},
-    {nazev: "MLM 180", doba: 180, cena: 1500, poznamka: "celé tělo"},
+    {nazev: "MLM 180", doba: 180, cena: 1700, poznamka: "celé tělo"},
 ]
 
 export const cenik6: cenik2type[] = [

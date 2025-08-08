@@ -30,7 +30,7 @@ export default function Poukazy() {
       <Button textProp="Kontakt" hrefProp="#" classes="text-2xl font-semibold text-gray-50 m-3 underline scale-105 transition" />
     </Navbar>
     <div className="h-8 bg-linear-to-b from-cyan-700/100 to-white/0 relative z-10"></div>
-    <div className="bg-[url(../../public/img/bgImg3.jpg)] bg-cover bg-center bg-origin-border h-[400px] -mt-16 relative z-0 opacity-60   transition-all"></div>
+    <div className="bg-[url(/../img/bgImg3.jpg)] bg-cover bg-center bg-origin-border h-[400px] -mt-16 relative z-0 opacity-60   transition-all"></div>
     <div className="h-8 bg-linear-to-t from-cyan-700/100 to-white/0 -mt-8 relative z-10"></div>
     <div className="bg-cyan-700 p-8">
       <TextEl classes="text-6xl xl:text-6xl font-black text-center bg-linear-to-br from-yellow-100 to-yellow-400 bg-clip-text text-transparent p-5">Kontakt</TextEl>
@@ -46,9 +46,11 @@ export default function Poukazy() {
             <TextEl classes="text-gray-50 text-xl">E-Mail: <a className="font-extrabold bg-linear-to-br from-yellow-100 to-yellow-400 bg-clip-text text-transparent" href="mailto:zatloukalova@masaze-brodek.cz">zatloukalova@masaze-brodek.cz</a></TextEl> 
             <TextEl classes="text-gray-50 text-xl"><strong className="font-black bg-linear-to-tl from-yellow-100 to-yellow-400 bg-clip-text text-transparent text-2xl">Objednávky na mobil!</strong></TextEl> 
           </div>
+          <Image source="/../img/cedule.jpg" classes="mt-16 w-92 rounded-xl" />
         </div>
-        <Image source="../../public/img/dum.jpg" classes="h-48 xl:h-164 mx-auto rounded-2xl opacity-85"></Image>
+        <Image source="/../img/dum.jpg" classes="h-48 xl:h-164 mx-auto rounded-2xl opacity-85 hidden xl:flex"></Image>
       </div>
+      <Image source="/../img/dum.jpg" classes="mt-16 w-164 mx-auto rounded-2xl opacity-85 xl:hidden"></Image>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41478.01857369898!2d17.346332773908177!3d49.477401068074435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713acd1f4a08de5%3A0x64683479f457485d!2zTWFzYcW-ZSBWxJtyYSBaYXRsb3VrYWxvdsOh!5e0!3m2!1scs!2scz!4v1754310918920!5m2!1scs!2scz" className="mt-16 w-full h-64 rounded-4xl"></iframe>
       <div className="h-16"></div>
     </div>
